@@ -28,10 +28,10 @@ This project implements a Python LRU (Least Recently Used) cache, enhanced with 
 
 ### `__str__() -> str`
 - Returns a string representing the cache contents.
-### `__contains__() -> bool
+### `__contains__() -> bool`
 - Returns `True` if the key is stored in the cache.
 
-### `__len__() -> bool
+### `__len__() -> bool`
 - Returns the number of items stored in the cache.
 ---
 
