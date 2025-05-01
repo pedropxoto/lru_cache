@@ -38,9 +38,9 @@ This project implements a Python LRU (Least Recently Used) cache, enhanced with 
 ## 🚀 Quick Start
 
 ```python
-from lru_cache import LRUCache
+from src.cache import Cache
 
-cache = LRUCache(capacity=3)
+cache = Cache(capacity=3)
 
 cache.put(1, "apple", time.time()+120, priority=2)
 cache.put(2, "banana", time.time()+120, priority=3)
@@ -48,4 +48,3 @@ cache.put(2, "banana", time.time()+120, priority=3)
 print(cache.get(1))
 print(cache)
 print(len(cache))
-´´´
