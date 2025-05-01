@@ -1,4 +1,4 @@
-from node import Node
+from src.node import Node
 import time
 import threading
 from typing import Any
