@@ -35,7 +35,7 @@ This project implements a Python LRU (Least Recently Used) cache, enhanced with 
 - Returns the number of items stored in the cache.
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```python
 from src.cache import Cache
