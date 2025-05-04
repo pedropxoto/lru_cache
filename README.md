@@ -2,14 +2,14 @@
 
 This project implements a Python LRU (Least Recently Used) cache, enhanced with TTL (time to live) expiration and a priority-based eviction strategy.
 
-## ✅ Features
+## Features
 - **TTL**:: old items get expired
 - **Priority-based eviction**: removes low-priority items first
 - **Thread-safe**: uses `Locks` to handle concurrency
 
 ---
 
-## 📚 Available Methods
+## Available Methods
 
 ### `get(key: int) -> Any`
 - Returns the value of the item with the given key, if present and  Moves the accessed item to the front.
